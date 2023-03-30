@@ -12,7 +12,7 @@ const routes = [
       {
         path: "data",
         name: "mainData",
-        component: () => import("pages/Main/Data.vue"),
+        component: () => import("pages/Main/DataPage.vue"),
       },
       {
         path: "race-setup",
