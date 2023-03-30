@@ -33,6 +33,14 @@
           </template>
         </card-component>
       </div>
+
+      <div class="q-pa-md col-12 col-md-6">
+        <card-component title="tyres" avatar="main-page/tyre.png">
+          <template v-slot:content>
+            <StaffComponent />
+          </template>
+        </card-component>
+      </div>
     </div>
   </q-page>
 </template>

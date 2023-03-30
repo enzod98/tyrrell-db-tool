@@ -11,7 +11,9 @@
   </q-linear-progress>
 </template>
 <script>
-export default {
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "ProgressComponent",
   props: {
     invertedColor: {
@@ -24,12 +26,12 @@ export default {
     return {
       porcent: function () {
         let porcent = 100 - (props.value * 100) / props.maxValue;
-        console.log(porcent);
+        // console.log(porcent);
         return porcent * 0.01;
       },
     };
   },
-};
+});
 </script>
 
 <style scoped>

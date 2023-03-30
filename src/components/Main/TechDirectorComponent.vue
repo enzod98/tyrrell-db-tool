@@ -74,6 +74,7 @@
 </template>
 
 <script>
+import { defineComponent } from "vue";
 import ProgressComponent from "../Shared/ProgressComponent.vue";
 
 export default {
